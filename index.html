@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Título de página -->
+        <title>Ejercicio 2 | 2do Corte</title>
+
+        <!-- Codificación de caracteres > Caracteres especiales en Español -->
+        <meta charset="utf-8">
+        
+        <!-- Cargar ícono de favoritos -->
+        <link rel="icon" href="img/favicon.png">
+
+        <!-- Enlace a librería desde CDN: PrefixFree -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <!-- Enlace a librería de íconos: FontAwesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <!-- Enlace a librería de fuentes tipográficas: Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Cargar CSS propio -->
+        <link rel="stylesheet" href="css/estilo.css"> 
+    </head>
+
+    <body>
+
+        <!-- Componente Menú Responsive -->
+        <aside id="menu-moviles">
+            <a href="#" id="abrir-menu">
+                <i class="fas fa-bars"></i>
+            </a>
+    
+            <a href="#" id="cerrar-menu">
+                <i class="fas fa-times"></i>
+            </a>
+            <nav>
+                <a href="#encabezado">Encabezado</a>
+                <a href="#img-02">Cuerpo</a> 
+                <a href="#img-03">Desenlace</a>
+            </nav>
+        </aside>
+    
+    <!-- Componente Header con Logo y Menú -->
+        <header>
+            <div id="capa-superior">
+                <article>
+                    <figure>
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Act. 1 - 2do Corte">
+                        </a>
+                    </figure>
+                </article>
+            </div>
+        </header>
+
+        <main>
+            <!-- Componente de Slider > Slick Slider -->
+            <section id="zona-slider">
+                <article class="slick-slider">
+                    <figure id="slide-01"></figure>
+                    <figure id="slide-02"></figure>
+                    <figure id="slide-03"></figure>
+                </article>
+            </section>
+
+
+            <!-- Sección 01 -->
+            <section id="seccion-01">
+                <figure id="img-01"></figure>
+                <figure id="caja-01"> 
+                    <figure id="img-02"></figure>
+                    <figure id="img-03"></figure>  
+                    <figure id="img-04"></figure>
+                </figure>
+                <figure id="caja-02">
+                    <figure id="img-05"></figure>
+                    <figure id="img-06"></figure>
+                    <figure id="img-07"></figure>
+                    <figure id="img-08"></figure>
+                    <figure id="img-09"></figure>
+                    <figure id="img-10"></figure>
+                </figure>
+                <figure id="caja-03">
+                    <figure id="img-11"></figure>
+                    <figure id="img-12"></figure>
+                    <figure id="img-13"></figure>
+                    <figure id="img-14"></figure>
+                </figure>  
+                <figure id="caja-04">
+                    <figure id="img-15"></figure>
+                    <figure id="img-16"></figure>
+                    <figure id="img-17"></figure>
+                    <figure id="img-18"></figure> 
+                </figure> 
+            </section>
+        </main>
+
+
+
+        <!-- Zona de JavaScript -->
+
+        <!-- 1°: LLamado a jQuery desde un CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- 2°: Llamado a librerías hijo de jQuery -->
+        <!-- jQuery Easing desde CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- LLamado a Slick Slider -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+        <!-- Cargar JS propio -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
