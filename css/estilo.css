@@ -51,10 +51,10 @@ main section#zona-slider article.slick-slider figure#slide-03 { width: 100%; hei
 .slick-prev { left: 25px !important; z-index: 9 !important; }
 .slick-next { right: 25px !important; z-index: 10 !important; }
 
-/* Sección 01 */ 
+/* Sección 01 */
 main section#seccion-01 { width: 100%; height: 500px; margin: 0 auto; float: none; position: relative; }
 main section#seccion-01 figure#img-01 { width: 50%; height: 500px; margin: 0; float: left; position: relative; background: url('../img/img4.jpg') no-repeat top center; background-size: cover; }
-main section#seccion-01 figure#caja-01 { width: 50%; height: 500px; margin: 0; position: relative; float: left; } 
+main section#seccion-01 figure#caja-01 { width: 50%; height: 500px; margin: 0; position: relative; float: left; }
 main section#seccion-01 figure#caja-01 figure#img-02 { width: 100%; height: 250px; margin: 0; float: left; position: relative; background: url('../img/img8.jpg') no-repeat top center; background-size: cover; }
 main section#seccion-01 figure#caja-01 figure#img-03 { width: 35%; height: 250px; margin: 0; float: left; position: relative; background: url('../img/img6.jpg') no-repeat top center; background-size: cover; }
 main section#seccion-01 figure#caja-01 figure#img-04 { width: 65%; height: 250px; margin: 0; float: left; position: relative; background: url('../img/img7.jpg') no-repeat top center; background-size: cover; }
@@ -64,7 +64,7 @@ main section#seccion-01 figure#caja-02 figure#img-06 { width: 31.5%; height: 320
 main section#seccion-01 figure#caja-02 figure#img-07 { width: 31.5%; height: 320px; margin: 0 0 2.75% 0; float: left; position: relative; background: url('../img/img11.jpg') no-repeat top center; background-size: cover; }
 main section#seccion-01 figure#caja-02 figure#img-08 { width: 31.5%; height: 320px; margin: 0 2.75% 0 0; float: left; position: relative; background: url('../img/img12.jpg') no-repeat top center; background-size: cover; }
 main section#seccion-01 figure#caja-02 figure#img-09 { width: 31.5%; height: 320px; margin: 0 2.75% 0 0; float: left; position: relative; background: url('../img/img5.jpg') no-repeat top center; background-size: cover; }
-main section#seccion-01 figure#caja-02 figure#img-10 { width: 31.5%; height: 320px; margin: 0; float: left; position: relative; background: url('../img/img13.jpg') no-repeat top center; background-size: cover; } 
+main section#seccion-01 figure#caja-02 figure#img-10 { width: 31.5%; height: 320px; margin: 0; float: left; position: relative; background: url('../img/img13.jpg') no-repeat top center; background-size: cover; }
 main section#seccion-01 figure#caja-03 { width: 50%; height: 1400px; float: left; position: relative; }
 main section#seccion-01 figure#caja-03 figure#img-11 { width: 100%; height: 25%; margin: 0; float: left; position: relative; background: url('../img/img14.jpg') no-repeat top center; background-size: cover;}
 main section#seccion-01 figure#caja-03 figure#img-12 { width: 100%; height: 50%; margin: 0; float: left; position: relative; background: url('../img/img16.jpg') no-repeat top center; background-size: cover;}
@@ -80,33 +80,50 @@ main section#seccion-01 figure#caja-04 figure#img-18 { width: 100%; height: 50%;
 
 /* Tablets */
 @media only screen and (max-width: 1199px){
-    main section#zona-slider { height: 50vh; }
-    main section#zona-slider article.slick-slider { height: 50vh; }
+    aside#menu-moviles nav a { font-size: 1.5em; }
+
+    header div#capa-superior article figure a img {margin: 0 0 0 20px; }
+
+    main section#zona-slider { margin-top: 80px; height: 48vh; }
+    main section#zona-slider article.slick-slider { height: 48vh; }
     main section#zona-slider article.slick-slider figure#slide-01,
     main section#zona-slider article.slick-slider figure#slide-02,
-    main section#zona-slider article.slick-slider figure#slide-03 { height: 50vh; }
+    main section#zona-slider article.slick-slider figure#slide-03 { height: 48vh; background-position: center;}
 
+    main section#seccion-01 figure#img-01 { width: 50%; height: 250px; }
+    main section#seccion-01 figure#caja-01 { width: 50%; height: 500px; }
+    main section#seccion-01 figure#caja-01 figure#img-02 { width: 100%; height: 250px; }
+    main section#seccion-01 figure#caja-01 figure#img-03 { right: 100%; width: 100%; height: 250px; }
+    main section#seccion-01 figure#caja-01 figure#img-04 { bottom: 50%; width: 100%; height: 250px; }
+    main section#seccion-01 figure#caja-02 { width: 70%; }
+    main section#seccion-01 figure#caja-02 figure#img-05 { width: 100%; margin: 0 0 5.5% 0; }
+    main section#seccion-01 figure#caja-02 figure#img-06 { width: 100%; margin: 0 0 5.5% 0; }
+    main section#seccion-01 figure#caja-02 figure#img-07 { width: 100%; margin: 0 0 5.5% 0; }
+    main section#seccion-01 figure#caja-02 figure#img-08 { width: 100%; margin: 0 0 5.5% 0; }
+    main section#seccion-01 figure#caja-02 figure#img-09 { width: 100%; margin: 0 0 5.5% 0; }
+    main section#seccion-01 figure#caja-02 figure#img-10 { width: 100%; }
+    main section#seccion-01 figure#caja-03 { width: 100%; height: 1000px; float: left; }
+    main section#seccion-01 figure#caja-03 figure#img-11 { width: 100%; height: 50%; margin: 0; float: left; }
+    main section#seccion-01 figure#caja-03 figure#img-12 { width: 50%; height: 25%; margin: 0; float: left; }
+    main section#seccion-01 figure#caja-03 figure#img-13 { width: 50%; height: 25%; margin: 0; float: left; }
+    main section#seccion-01 figure#caja-03 figure#img-14 { width: 50%; height: 25%; margin: 0; float: left; }
+    main section#seccion-01 figure#caja-04 { bottom: 50%; width: 100%; height: 1000px; float: left; margin-bottom: -40%;}
+    main section#seccion-01 figure#caja-04 figure#img-15 { width: 50%; height: 25%; margin: 0; float: right; }
+    main section#seccion-01 figure#caja-04 figure#img-16 { top: 25%; width: 50%; height: 25%; margin: 0; float: right; }
+    main section#seccion-01 figure#caja-04 figure#img-17 { width: 50%; height: 25%; margin: 0; float: right; }
+    main section#seccion-01 figure#caja-04 figure#img-18 { width: 100%; height: 50%; margin: 0; float: left; }
+}
 
-    main section#seccion-01 { height: auto; }
-    main section#seccion-01 figure#img-01,
-    main section#seccion-01 figure#img-02,
-    main section#seccion-01 figure#img-03 { width: 100%; height: 300px; margin: 0 auto; float: none; }
+@media only screen and (max-width: 799px){
 
-
-    main section#seccion-02 { width: 100%; height: auto; }
-    main section#seccion-02 article { width: 80%; height: auto; margin: 0 auto; float: none; padding: 75px 0; }
-    main section#seccion-02 article h1 { font-size: 2.188em; text-align: center; }
-    main section#seccion-02 article p { text-align: center; }
-    main section#seccion-02 figure#foto-seccion-02 { width: 100%; height: 350px; margin: 0 auto; float: none; }
 }
 
 /* Móviles Grandes */
 @media only screen and (max-width: 499px){
-
-
+  
 }
 
 /* Móviles Pequeños */
 @media only screen and (max-width: 399px){
-    
+
 }
